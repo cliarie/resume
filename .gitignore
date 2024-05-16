@@ -1,1 +1,2 @@
-style.pdf
+*.pdf
+!src.pdf
