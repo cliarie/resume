@@ -24,21 +24,29 @@
   *Grade:* 4.0/4.0\
 ]
 
-*Relevant Coursework:* Data Structures · Computer Architecture · Rust and C++ · Abstract Linear Algebra · Statistics and Probability · Discrete & Fundamental Math · Complex Variables · Matrix Theory
+*Relevant Coursework:* Data Structures · Computer Architecture · Systems Programming · Distributed Systems · Graph Theory · Abstract Linear Algebra · Statistics and Probability · Discrete & Fundamental Math · Complex Analysis
 
 = Experience
 #entry[
+  == CME Group
+  _Software Engineer_
+][May 2024 - Present]
+
+- Incoming intern on markets and trading platform.
+
+#entry[
   == AMD --- Disruption Lab
   _Software Engineer_
-][Jan 2024 - Present]
+][Jan 2024 - May 2024]
 
-- Optimizing AMD Mic performance by efficiently categorizing and removing unwanted noise leveraging DL algorithms.
-- Constructing robust model to handle sources of different noise scales with reverberation and background noise.
+- Optimized AMD Mic performance by efficiently categorizing and removing unwanted noise leveraging DL algorithms.
+- Constructed state-of-the-art audio separation model Sepformer in PyTorch on AWS Sagemaker to handle sources of different noise scales with reverberation and background noise.
+- Ported PyTorch models into ONNX to run on AMD hardware.
 
 #entry[
   == ACM \@ UIUC
   _Software Engineer_
-][Aug 2023 - Present]
+][Aug 2023 - May 2024]
 
 - Developed a resume book for companies to filter and network with students in Association for Computing Machinery.
 - Handled login flow and backend, and linked and stored user information in AWS database with Boto3.
@@ -61,25 +69,33 @@
 - Conducted biomedical image analysis of distinguishing viral pneumonia COVID-19 from other forms of viral pneumonia through deep learning multi-class image classification.
 - Innovated novel two layer stacked ensemble method incorporating transfer learning, hyperparameter tuning, image preprocessing, and ensemble learning that achieved 21.37% improved accuracy to baseline ResNet50.
 
-#entry[
-  == Lynbrook Mobile App
-  _Lead Developer_
-][Apr 2022 - Aug 2023]
+// #entry[
+//   == Lynbrook Mobile App
+//   _Lead Developer_
+// ][Apr 2022 - Aug 2023]
 
-- Led mobile app development team and integrated school, student organization, faculty, and sports events onto the app.
-- Liaised between student body, faculty, school board, and development team and handled requests from all clients to keep app prevalent to the student body; app assists 40 school-wide events, 20+ clubs, and serves 1.9k users annually.
-- Worked with React Native and TypeScript, led team of 5 developers, and trained 3 underclassmen.
+// - Led mobile app development team and integrated school, student organization, faculty, and sports events onto the app.
+// - Liaised between student body, faculty, school board, and development team and handled requests from all clients to keep app prevalent to the student body; app assists 40 school-wide events, 20+ clubs, and serves 1.9k users annually.
+// - Worked with React Native and TypeScript, led team of 5 developers, and trained 3 underclassmen.
 
 = Projects
-
 #entry[
-  == SnackSafe App
-  _React · NextJS · Supabase_
+  == Exchange Simulator
+  _C++ · CMake_
 ][]
 
-- Developed a lightweight web app that generates suitable restaurants for people with dietary restrictions.
-- Populated restaurant data such as description, hours, distance, initial reviews, etc. in database using Yelp API.
-- Implemented login flow using Supabase's Google OAuth Provider save their allergen preferences.
+- Built a stock exchange simulator in C++ following NASDAQ ITCH protocol optimizing low latency and high throughput.
+- Ensured thread safety and minimized contention by using lock-free SPMC queue and atomic operations.
+- Optimized matching engine to constant time order operations with no overhead and near constant best prices order search with good CPU cache locality by using preallocated data structures. 
+
+// #entry[
+//   == SnackSafe App
+//   _React · NextJS · Supabase_
+// ][]
+
+// - Developed a lightweight web app that generates suitable restaurants for people with dietary restrictions.
+// - Populated restaurant data such as description, hours, distance, initial reviews, etc. in database using Yelp API.
+// - Implemented login flow using Supabase's Google OAuth Provider save their allergen preferences.
 
 
 #entry[
@@ -111,8 +127,8 @@
   box(L + h(-a.width * 0.67) + A + h(-a.width * 0.25) + TeX)
 })
 
-*Languages:* C++ · Python · Java · MIPS Assembly · JavaScript · TypeScript · HTML/CSS · Rust
+*Languages:* C++ · Python · Java · MIPS Assembly · TypeScript · Rust 
 
-*Web Frameworks and Developer Tools:* React Native · React · Docker · #LaTeX · Typst · Linux · Git · GitHub Actions
+*Web Frameworks and Developer Tools:* Linux · Git Docker · React · #LaTeX · Typst · GitHub Actions
 
-*Other Technologies:* Firebase · Supabase · AWS · NumPy · PyTorch · TensorFlow · NextJS · Tailwind · Microsoft Excel
+*Other Technologies:* Supabase · AWS · Firebase · NumPy · PyTorch · TensorFlow · NextJS · Tailwind
