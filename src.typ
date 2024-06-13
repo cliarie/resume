@@ -32,7 +32,7 @@
   _Software Engineer_
 ][May 2024 - Present]
 
-- Incoming intern on markets and trading platform.
+- Current intern on markets and trading platform.
 
 #entry[
   == AMD --- Disruption Lab
@@ -129,6 +129,6 @@
 
 *Languages:* C++ · Python · Java · MIPS Assembly · TypeScript · Rust 
 
-*Web Frameworks and Developer Tools:* Linux · Git Docker · React · #LaTeX · Typst · GitHub Actions
+*Web Frameworks and Developer Tools:* Linux · Git · Kubernetes · Docker · React · #LaTeX · Typst · GitHub Actions
 
 *Other Technologies:* Supabase · AWS · Firebase · NumPy · PyTorch · TensorFlow · NextJS · Tailwind
