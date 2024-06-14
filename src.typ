@@ -127,8 +127,8 @@
   box(L + h(-a.width * 0.67) + A + h(-a.width * 0.25) + TeX)
 })
 
-*Languages:* C++ · Python · Java · MIPS Assembly · TypeScript · Rust 
+*Languages and Frameworks:* C++ · Java · Python · MIPS Assembly · Rust · SQL · Typescript · Verilog · Spring Boot · React 
 
-*Web Frameworks and Developer Tools:* Linux · Git · Kubernetes · Docker · React · #LaTeX · Typst · GitHub Actions
+*Development Tools and Platforms:* Git · CMake · Kubernetes · Docker · Kafka · RabbitMQ · Maven · JUnit · Mockito
 
-*Other Technologies:* Supabase · AWS · Firebase · NumPy · PyTorch · TensorFlow · NextJS · Tailwind
+*Cloud Tools:* GCP · AWS · Supabase · Firebase · PyTorch · ONNX · Azure · Sagemaker 
