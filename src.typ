@@ -4,7 +4,7 @@
 #let title_items = (
   link("mailto:cychen6@illinois.edu"),
   link("https://linkedin.com/in/cliarie")[#fab("linkedin") cliarie],
-  link("https://github.com/cliarie")[#fab("github") cliarie],
+  link("https://github.com/cliarie")[#fab("github-alt") cliarie],
 )
 
 // Title row.
