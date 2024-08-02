@@ -24,19 +24,19 @@
   *Grade:* 4.0/4.0\
 ]
 
-*Relevant Coursework:* Data Structures · Computer Architecture · Systems Programming · Distributed Systems · Graph Theory · Abstract Linear Algebra · Statistics and Probability · Discrete & Fundamental Math · Complex Analysis
+*Relevant Coursework:* Data Structures · Computer Architecture · Systems Programming · Distributed Systems · Competitive Algorithmic Programming · Graph Theory · Abstract Linear Algebra · Discrete & Fundamental Math · Complex Analysis
 
 = Experience
 #entry[
   == CME Group
-  _Software Engineer_
+  _Software Engineer Intern_
 ][May 2024 - Present]
 
 - Implemented a new feature for the market data simulator NR to allow for realistic market data generation.
 - Aggregated CAML-wrapped SBE binary marketdata and encoded/decoded messages with SBE/iLinkBinary protocols to maintain an orderbook and skew marketdata effectively; simulated traders with self prevention ids to place orders in NR.
-- Streamed marketdata with Kafka and Cloud Pub/Sub and handled concurrency with a ring buffer to reduce contention.
+- Streamed marketdata with *Kafka* and Cloud *Pub/Sub* and handled concurrency with a *ring buffer* to reduce contention.
 - Reconciled incoming marketdata by keeping track of TOB orders and variable tick size instruments and increments.
-- Utilized Java and Spring Boot for backend development, ran Cucumber and Mockito for integration testing and creating Mock servers and gateway endpoints, and GKE GCP for containerization and deployment.
+- Utilized Java and Spring Boot for backend development, ran Cucumber and Mockito for integration testing and creating Mock servers and gateway endpoints, and *GKE GCP* for containerization and deployment.
 
 #entry[
   == AMD --- Disruption Lab
@@ -44,8 +44,8 @@
 ][Jan 2024 - May 2024]
 
 - Optimized AMD Mic performance by efficiently categorizing and removing unwanted noise leveraging DL algorithms.
-- Constructed state-of-the-art audio separation model Sepformer in PyTorch on AWS Sagemaker to handle sources of different noise scales with reverberation and background noise.
-- Ported PyTorch models into ONNX to run on AMD hardware.
+- Constructed state-of-the-art audio separation model Sepformer in PyTorch on *AWS Sagemaker* to handle sources of different noise scales with reverberation and background noise.
+- Ported PyTorch models into *ONNX* to run on AMD hardware.
 
 // #entry[
 //   == ACM \@ UIUC
@@ -63,7 +63,7 @@
 
 - Allowed operators to use natural language to query unstructured information in a knowledge base of financial information for an AI Fintech startup.
 - Enabled efficient context formation in conversations and the ability to recall past conversations with no context loss by constructing novel knowledge graphs; cross tested loss and accuracy by implementing LLMs for the same task.
-- Implemented accurate detection of pages with useful tabular data and PDF parsing by leveraging GPT-4 and Azure.
+- Implemented accurate detection of pages with useful tabular data and PDF parsing by leveraging GPT-4 and *Azure*.
 
 #entry[
   == UC Santa Barbara Vision Research Lab
