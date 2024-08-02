@@ -30,7 +30,7 @@
 #entry[
   == CME Group
   _Software Engineer Intern_
-][May 2024 - Present]
+][May 2024 - Aug 2024]
 
 - Implemented a new feature for the market data simulator NR to allow for realistic market data generation.
 - Aggregated CAML-wrapped SBE binary marketdata and encoded/decoded messages with SBE/iLinkBinary protocols to maintain an orderbook and skew marketdata effectively; simulated traders with self prevention ids to place orders in NR.
