@@ -32,7 +32,11 @@
   _Software Engineer_
 ][May 2024 - Present]
 
-- Current intern on markets and trading platform.
+- Implemented a new feature for the market data simulator NR to allow for realistic market data generation.
+- Aggregated CAML-wrapped SBE binary marketdata and encoded/decoded messages with SBE/iLinkBinary protocols to maintain an orderbook and skew marketdata effectively; simulated traders with self prevention ids to place orders in NR.
+- Streamed marketdata with Kafka and Cloud Pub/Sub and handled concurrency with a ring buffer to reduce contention.
+- Reconciled incoming marketdata by keeping track of TOB orders and variable tick size instruments and increments.
+- Utilized Java and Spring Boot for backend development, ran Cucumber and Mockito for integration testing and creating Mock servers and gateway endpoints, and GKE GCP for containerization and deployment.
 
 #entry[
   == AMD --- Disruption Lab
@@ -43,21 +47,21 @@
 - Constructed state-of-the-art audio separation model Sepformer in PyTorch on AWS Sagemaker to handle sources of different noise scales with reverberation and background noise.
 - Ported PyTorch models into ONNX to run on AMD hardware.
 
-#entry[
-  == ACM \@ UIUC
-  _Software Engineer_
-][Aug 2023 - May 2024]
+// #entry[
+//   == ACM \@ UIUC
+//   _Software Engineer_
+// ][Aug 2023 - May 2024]
 
-- Developed a resume book for companies to filter and network with students in Association for Computing Machinery.
-- Handled login flow and backend, and linked and stored user information in AWS database with Boto3.
-- Designed profile cards for each registered student displaying degree, skills, graduation year, etc.
+// - Developed a resume book for companies to filter and network with students in Association for Computing Machinery.
+// - Handled login flow and backend, and linked and stored user information in AWS database with Boto3.
+// - Designed profile cards for each registered student displaying degree, skills, graduation year, etc.
 
 #entry[
   == A*Star
   _Software Engineer, Machine Learning Engineer_
 ][Aug 2023 - Jan 2024]
 
-- Allowed operators to use natural language to query unstructured information in a knowledge base of financial information for an AI Fintech startup. 
+- Allowed operators to use natural language to query unstructured information in a knowledge base of financial information for an AI Fintech startup.
 - Enabled efficient context formation in conversations and the ability to recall past conversations with no context loss by constructing novel knowledge graphs; cross tested loss and accuracy by implementing LLMs for the same task.
 - Implemented accurate detection of pages with useful tabular data and PDF parsing by leveraging GPT-4 and Azure.
 
@@ -86,7 +90,7 @@
 
 - Built a stock exchange simulator in C++ following NASDAQ ITCH protocol optimizing low latency and high throughput.
 - Ensured thread safety and minimized contention by using lock-free SPMC queue and atomic operations.
-- Optimized matching engine to constant time order operations with no overhead and near constant best prices order search with good CPU cache locality by using preallocated data structures. 
+- Optimized matching engine to constant time order operations with no overhead and near constant best prices order search with good CPU cache locality by using preallocated data structures.
 
 // #entry[
 //   == SnackSafe App
@@ -127,8 +131,8 @@
   box(L + h(-a.width * 0.67) + A + h(-a.width * 0.25) + TeX)
 })
 
-*Languages and Frameworks:* C++ · Java · Python · MIPS Assembly · Rust · SQL · Typescript · Verilog · Spring Boot · React 
+*Languages and Frameworks:* C++ · Java · Python · MIPS Assembly · Go · SQL · Typescript · Verilog · Spring Boot · React
 
 *Development Tools and Platforms:* Git · CMake · Kubernetes · Docker · Kafka · RabbitMQ · Maven · JUnit · Mockito
 
-*Cloud Tools:* GCP · AWS · Supabase · Firebase · PyTorch · ONNX · Azure · Sagemaker 
+*Cloud Tools:* GKE/GCP · AWS · Supabase · Firebase · PyTorch · ONNX · Azure · Sagemaker

@@ -7,7 +7,7 @@
   show strong: it => text(weight: "semibold", it.body)
 
   show heading.where(level: 1): it => [
-    #set text(12pt, weight: "regular")
+    #set text(11pt, weight: "regular")
     #block(
       width: 100%,
       stroke: (bottom: 0.5pt),
@@ -18,7 +18,7 @@
     )
   ]
   show heading.where(level: 2): it => {
-    text(size: 12pt, it.body)
+    text(size: 11pt, it.body)
     h(0.3em)
   }
   set list(indent: 1em)
