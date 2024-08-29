@@ -24,7 +24,7 @@
   *Grade:* 4.0/4.0\
 ]
 
-*Relevant Coursework:* Data Structures · Computer Architecture · Systems Programming · Distributed Systems · Competitive Algorithmic Programming · Graph Theory · Abstract Linear Algebra · Discrete & Fundamental Math · Complex Analysis
+*Relevant Coursework:* Systems Programming · Distributed Systems · Computer Architecture · Computer System Organization · Data Structures · Competitive Algorithmic Programming · Abstract Linear Algebra · Discrete Math · Complex Analysis · Real Analysis · Probability Theory
 
 = Experience
 #entry[

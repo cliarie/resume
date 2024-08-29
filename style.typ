@@ -2,7 +2,7 @@
   set document(title: "Claire Chen", author: ("Claire Chen"))
   set page(paper: "us-letter", margin: 0.3in)
 
-  set text(font: "EB Garamond", lang: "en", size: 11pt, weight: 400)
+  set text(font: "EB Garamond", lang: "en", size: 10.7pt, weight: 400)
   show par: set block(above: 0.8em, below: 0.8em)
   show strong: it => text(weight: "semibold", it.body)
 
