@@ -28,7 +28,7 @@
 
 = Experience
 #entry[
-  == Parallel Computing \@ UIUC
+  == Parasol Lab \@ UIUC
   _Researcher_
 ][Aug 2024 - Present]
 
