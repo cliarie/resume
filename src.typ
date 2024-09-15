@@ -24,9 +24,16 @@
   *Grade:* 4.0/4.0\
 ]
 
-*Relevant Coursework:* Systems Programming · Distributed Systems · Computer Architecture · Computer System Organization · Data Structures · Competitive Algorithmic Programming · Abstract Linear Algebra · Discrete Math · Complex Analysis · Real Analysis · Probability Theory
+*Relevant Coursework:* Systems Programming · *Distributed Systems* · Computer Architecture · Computer System Organization · Data Structures · Competitive Algorithmic Programming · Abstract Linear Algebra · Discrete Math · Complex Analysis · Real Analysis · Probability Theory
 
 = Experience
+#entry[
+  == Parallel Computing \@ UIUC
+  _Researcher_
+][Aug 2024 - Present]
+
+- Working under Professor Lawrence Rauchwerger to develop a distributed, open-source C++ library for robot task and motion planning, optimizing the C++ STL for *parallel* and *distributed* execution. Focusing on enhancing performance and scalability across *multi-core systems*, improving efficiency in complex robotic tasks.
+
 #entry[
   == CME Group
   _Software Engineer Intern_
@@ -34,9 +41,9 @@
 
 - Implemented a new feature for the market data simulator NR to allow for realistic market data generation.
 - Aggregated CAML-wrapped SBE binary marketdata and encoded/decoded messages with SBE/iLinkBinary protocols to maintain an orderbook and skew marketdata effectively; simulated traders with self prevention ids to place orders in NR.
-- Streamed marketdata with *Kafka* and Cloud *Pub/Sub* and handled concurrency with a *ring buffer* to reduce contention.
+- Streamed marketdata with *Kafka* and *Cloud* *Pub/Sub* and handled concurrency with a *ring buffer* to reduce contention.
 - Reconciled incoming marketdata by keeping track of TOB orders and variable tick size instruments and increments.
-- Utilized Java and Spring Boot for backend development, ran Cucumber and Mockito for integration testing and creating Mock servers and gateway endpoints, and *GKE GCP* for containerization and deployment.
+- Utilized Java and Spring Boot for backend development, ran Cucumber and Mockito for integration testing and creating Mock servers and gateway endpoints, and *GKE GCP* for *cloud containerization and deployment*.
 
 #entry[
   == AMD --- Disruption Lab
@@ -88,8 +95,8 @@
   _C++ · CMake_
 ][]
 
-- Built a stock exchange simulator in C++ following NASDAQ ITCH protocol optimizing low latency and high throughput.
-- Ensured thread safety and minimized contention by using lock-free SPMC queue and atomic operations.
+- Built a stock exchange simulator in C++ following NASDAQ ITCH protocol optimizing *low latency* and *high throughput*.
+- Ensured *thread safety* and minimized contention by using lock-free SPMC queue and atomic operations.
 - Optimized matching engine to constant time order operations with no overhead and near constant best prices order search with good CPU cache locality by using preallocated data structures.
 
 // #entry[
@@ -102,13 +109,13 @@
 // - Implemented login flow using Supabase's Google OAuth Provider save their allergen preferences.
 
 
-#entry[
-  == Gradient Boosting on Identifying Age-Related Conditions
-  _Python · TensorFlow_
-][]
+// #entry[
+//   == Gradient Boosting on Identifying Age-Related Conditions
+//   _Python · TensorFlow_
+// ][]
 
-- Analyzed a dataset of over fifty anonymized health characteristics linked to three age-related conditions to predict patients’ conditions for the InVitro Cell Research Company.
-- Leveraged gradient boosting (CatBoost, LightBoost, XGBM) to build ML model and handled dataset imbalances.
+// - Analyzed a dataset of over fifty anonymized health characteristics linked to three age-related conditions to predict patients’ conditions for the InVitro Cell Research Company.
+// - Leveraged gradient boosting (CatBoost, LightBoost, XGBM) to build ML model and handled dataset imbalances.
 
 = Technical Skills
 
