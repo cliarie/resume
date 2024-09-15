@@ -43,7 +43,7 @@
 - Aggregated CAML-wrapped SBE binary marketdata and encoded/decoded messages with SBE/iLinkBinary protocols to maintain an orderbook and skew marketdata effectively; simulated traders with self prevention ids to place orders in NR.
 - Streamed marketdata with *Kafka* and *Cloud* *Pub/Sub* and handled concurrency with a *ring buffer* to reduce contention.
 - Reconciled incoming marketdata by keeping track of TOB orders and variable tick size instruments and increments.
-- Utilized Java and Spring Boot for backend development, ran Cucumber and Mockito for integration testing and creating Mock servers and gateway endpoints, and *GKE GCP* for *cloud containerization and deployment*.
+- Utilized *Java* and Spring Boot for backend development, ran Cucumber and Mockito for integration testing and creating Mock servers and gateway endpoints, and *GKE GCP* for *cloud containerization and deployment*.
 
 #entry[
   == AMD --- Disruption Lab
