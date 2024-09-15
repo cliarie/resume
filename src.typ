@@ -32,7 +32,7 @@
   _Researcher_
 ][Aug 2024 - Present]
 
-- Working under Professor Lawrence Rauchwerger to develop a distributed, open-source C++ library for robot task and motion planning, optimizing the C++ STL for *parallel* and *distributed* execution. Focusing on enhancing performance and scalability across *multi-core systems*, improving efficiency in complex robotic tasks.
+- Working under Professor Lawrence Rauchwerger to develop a distributed, open-source *C++* library for robot task and motion planning, optimizing the C++ STL for *parallel* and *distributed* execution. Focusing on enhancing performance and scalability across *multi-core systems*, improving efficiency in complex robotic tasks.
 
 #entry[
   == CME Group
@@ -138,7 +138,7 @@
   box(L + h(-a.width * 0.67) + A + h(-a.width * 0.25) + TeX)
 })
 
-*Languages and Frameworks:* C++ · Java · Python · MIPS Assembly · Go · SQL · Typescript · Verilog · Spring Boot · React
+*Languages and Frameworks:* C++ · Java · Python · C · Go · MIPS Assembly · SQL · Typescript · Verilog · Spring Boot · React
 
 *Development Tools and Platforms:* Git · CMake · Kubernetes · Docker · Kafka · RabbitMQ · Maven · JUnit · Mockito
 
