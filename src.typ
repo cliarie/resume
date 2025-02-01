@@ -2,7 +2,7 @@
 #show: project
 
 #let title_items = (
-  link("mailto:cychen6@illinois.edu"),
+  link("mailto:clairechen.cs5@gmail.com"),
   link("https://linkedin.com/in/cliarie")[#fab("linkedin") cliarie],
   link("https://github.com/cliarie")[#fab("github-alt") cliarie],
 )
@@ -20,19 +20,24 @@
 
   Mathematics and Computer Science, B.S. \
 ][
-  *Expected Graduation:* May 2026\
+  *Expected Graduation:* May 2027\
   *Grade:* 4.0/4.0\
 ]
 
-*Relevant Coursework:* Systems Programming · *Distributed Systems* · Computer Architecture · Computer System Organization · Data Structures · Competitive Algorithmic Programming · Abstract Linear Algebra · Discrete Math · Complex Analysis · Real Analysis · Probability Theory
+*Relevant Coursework:* *Advanced Performance Engineering* · *Distributed Systems* · Systems Programming · Computer Architecture · Competitive Algorithmic Programming · Abstract Linear Algebra · Complex Analysis · Real Analysis  
+// Data Structures · · Abstract Linear Algebra · Discrete Math · Complex Analysis · Real Analysis · Probability Theory
 
 = Experience
 #entry[
-  == Parasol Lab \@ UIUC
-  _Researcher_
-][Aug 2024 - Present]
+  == Databricks
+  _Incoming Software Engineer Intern_
+][May 2025 - Aug 2025]
 
-- Working under Professor Lawrence Rauchwerger to develop a distributed, open-source *C++* library for robot task and motion planning, optimizing the C++ STL for *parallel* and *distributed* execution. Focusing on enhancing performance and scalability across *multi-core systems*, improving efficiency in complex robotic tasks.
+#entry[
+  == IMC Trading
+  _Technology and Trading_
+][Jan 2025 - Jan 2025]
+- Computed beta values for quantitative research to assess market risk. Developed hedging-focused trading strategies incorporating beta metrics. Implemented strategies into existing trading systems for execution and evaluation.
 
 #entry[
   == CME Group
@@ -51,8 +56,7 @@
 ][Jan 2024 - May 2024]
 
 - Optimized AMD Mic performance by efficiently categorizing and removing unwanted noise leveraging DL algorithms.
-- Constructed state-of-the-art audio separation model Sepformer in PyTorch on *AWS Sagemaker* to handle sources of different noise scales with reverberation and background noise.
-- Ported PyTorch models into *ONNX* to run on AMD hardware.
+- Constructed state-of-the-art audio separation model Sepformer in PyTorch on *AWS Sagemaker* to handle sources of different noise scales then ported PyTorch models into *ONNX* to run on AMD hardware.
 
 // #entry[
 //   == ACM \@ UIUC
@@ -68,12 +72,12 @@
   _Software Engineer, Machine Learning Engineer_
 ][Aug 2023 - Jan 2024]
 
-- Allowed operators to use natural language to query unstructured information in a knowledge base of financial information for an AI Fintech startup.
+- Allowed operators to use natural language to query unstructured information in a knowledge base of financial information.
 - Enabled efficient context formation in conversations and the ability to recall past conversations with no context loss by constructing novel knowledge graphs; cross tested loss and accuracy by implementing LLMs for the same task.
 - Implemented accurate detection of pages with useful tabular data and PDF parsing by leveraging GPT-4 and *Azure*.
 
 #entry[
-  == UC Santa Barbara Vision Research Lab
+  == Vision Research Lab \@ UCSB
   _Computer Vision Research Engineer_
 ][Jun 2023 - Aug 2023]
 
@@ -89,15 +93,28 @@
 // - Liaised between student body, faculty, school board, and development team and handled requests from all clients to keep app prevalent to the student body; app assists 40 school-wide events, 20+ clubs, and serves 1.9k users annually.
 // - Worked with React Native and TypeScript, led team of 5 developers, and trained 3 underclassmen.
 
-= Projects
+= Teaching and Research
 #entry[
-  == Exchange Simulator
-  _C++ · CMake_
-][]
+  == CS425 (Distributed Systems) \@ UIUC
+  _Course Assistant_
+][Jan 2025 - Present]
+- Hosted weekly office hours covering distributed shared memory, file systems, consensus, stream processing, key-value stores, multicast, distributed hash tables, mutual exclusion, and failure detectors, assisting with debugging and optimization. 
 
-- Built a stock exchange simulator in C++ following NASDAQ ITCH protocol optimizing *low latency* and *high throughput*.
-- Ensured *thread safety* and minimized contention by using lock-free SPMC queue and atomic operations.
-- Optimized matching engine to constant time order operations with no overhead and near constant best prices order search with good CPU cache locality by using preallocated data structures.
+#entry[
+  == Parasol Lab \@ UIUC
+  _Researcher_
+][Aug 2024 - Present]
+
+- Working under Professor Lawrence Rauchwerger to develop a distributed, open-source *C++* library for robot task and motion planning, optimizing the C++ STL for *parallel* and *distributed* execution. Focusing on enhancing performance and scalability across *multi-core systems*, improving efficiency in complex robotic tasks.
+
+// #entry[
+//   == Exchange Simulator
+//   _C++ · CMake_
+// ][]
+
+// - Built a stock exchange simulator in C++ following NASDAQ ITCH protocol optimizing *low latency* and *high throughput*.
+// - Ensured *thread safety* and minimized contention by using lock-free SPMC queue and atomic operations.
+// - Optimized matching engine to constant time order operations with no overhead and near constant best prices order search with good CPU cache locality by using preallocated data structures.
 
 // #entry[
 //   == SnackSafe App
