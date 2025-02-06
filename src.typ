@@ -18,7 +18,7 @@
 #entry[
   == University of Illinois, Urbana Champaign
 
-  Mathematics and Computer Science, B.S. \
+  Computer Science and Mathematics, B.S. \
 ][
   *Expected Graduation:* May 2027\
   *Grade:* 4.0/4.0\
@@ -28,10 +28,10 @@
 // Data Structures · · Abstract Linear Algebra · Discrete Math · Complex Analysis · Real Analysis · Probability Theory
 
 = Experience
-#entry[
-  == Databricks
-  _Incoming Software Engineer Intern_
-][May 2025 - Aug 2025]
+// #entry[
+//   == Databricks
+//   _Incoming Software Engineer Intern_
+// ][May 2025 - Aug 2025]
 
 #entry[
   == IMC Trading
